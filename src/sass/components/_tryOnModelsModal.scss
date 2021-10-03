@@ -1,14 +1,13 @@
 // Try on Modal ("ХОТИТЕ ПРИМЕРИТЬ ДАННУЮ МОДЕЛЬ ПЕРЕД ПОКУПКОЙ? ЛЕГКО!")
-// .visually-hidden {
-//   @extend %hide;
-// }
 
 .try-on {
   width: 394px;
 
   margin: 0 auto;
-  outline: 1px solid tomato;
+  // outline: 1px solid tomato;
   padding: 70px 20px;
+
+  background-color: $primary-background-color;
 
   @media screen and (min-width: $desktop-up) {
     width: 1017px;
@@ -58,6 +57,9 @@
 }
 
 .order-steps__item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   margin-bottom: 23px;
 
   font-family: $selection-font-family;
@@ -67,5 +69,9 @@
 }
 
 .order-steps__icon {
-fill: tomato;
+  min-width: 60px;
+  // flex-basis: 60px;
+  justify-content: flex-end;
+  fill: tomato;
+  margin-right: 10px;
 }

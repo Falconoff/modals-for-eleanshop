@@ -1,14 +1,13 @@
 // ============= PRE-ORDER MODAL ======================
-// .visually-hidden {
-//   @extend %hide;
-// }
 
 .preorder {
   width: 394px;
 
   margin: 0 auto;
-  outline: 1px solid tomato;
+  // outline: 1px solid tomato;
   padding: 70px 20px;
+
+  background-color: $primary-background-color;
 
   @media screen and (min-width: $desktop-up) {
     width: 1017px;

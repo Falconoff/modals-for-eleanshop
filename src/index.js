@@ -55,7 +55,7 @@ import './js/layout/favorites/sabmitEmail.js';
 import './js/components/backdrop.js';
 
 // modals
-import './js/layout/product/preorderModal.js';
+// import './js/layout/product/preorderModal.js';
 import './js/layout/product/tryOnModelsModal.js';
 
 //test
@@ -64,4 +64,3 @@ import './js/test/backdropTest.js';
 
 //blockHelp
 import './js/components/blockHelp/blockHelp';
-
