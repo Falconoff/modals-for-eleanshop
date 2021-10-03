@@ -41,40 +41,23 @@
     <p class='sizes__text'>
       ВЫБЕРИТЕ РАЗМЕР
     </p>
-    <ul class='sizes__list'>
-      <li class='sizes__item'>
-        40
-      </li>
-      <li class='sizes__item'>
-        42
-      </li>
-      <li class='sizes__item'>
-        44
-      </li>
-      <li class='sizes__item'>
-        46
-      </li>
-      <li class='sizes__item'>
-        48
-      </li>
-      <li class='sizes__item'>
-        50
-      </li>
+    <ul class='sizes__list js-sizes'>
+      {{! sizes.hbs }}
     </ul>
   </div>
 
   <div class='agreement'>
     <label class='agreement__label'>
       <input
+        class='agreement__checkbox visually-hidden'
         type='checkbox'
         name='agreement'
         value='ok'
         required
-        class='agreement__checkbox %hide'
       />
-      {{! <svg class='agreement__icon' width='16' height='15'>
-          <use href='#'></use>
-        </svg> }}
+      <svg class='agreement__icon' width='16' height='11'>
+        <use href='./images/try-on-sprite.svg#check'></use>
+      </svg>
       <span class='agreement__text'>
         Я согласен с
         <a class='agreement__link' href='#'>
