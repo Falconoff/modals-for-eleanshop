@@ -56,7 +56,7 @@ import './js/components/backdrop.js';
 
 // modals
 import './js/layout/product/preorderModal.js';
-// import './js/layout/product/tryOnModelsModal.js';
+import './js/layout/product/tryOnModelsModal.js';
 
 //test
 import './js/test/test_productHandSewn.js';
